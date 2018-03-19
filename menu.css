@@ -1,0 +1,38 @@
+html {
+	box-sizing: border-box;
+	font-family: Arial, sans-serif;
+}
+
+* {
+	box-sizing: inherit;
+}
+
+ul {
+	padding: 0px;
+}
+
+/* Heading styling*/
+.btn {
+	list-style: none;
+	background-color: #293540;
+	color: #fec20f;
+	font-size: 1.2rem;
+	width: 30%;
+	padding: 8px;
+	margin: 0px 0px 2px;
+}
+
+.btn:last-child {
+	margin-bottom: 0px;
+}
+
+/* Paragraph styling*/
+.box {
+	display: none;
+	background-color: #fec20f;
+	color: #293540;
+	font-size: 1rem;
+	padding: 8px;
+	width: 30%;
+	margin: 0px 0px 2px;
+}
