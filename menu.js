@@ -6,5 +6,4 @@ function showContent(event) {
 	if (clickedElement.is('h1')) {
 		clickedElement.next().toggle("100");
 	}
-	console.log(event);
 }
